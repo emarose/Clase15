@@ -7,7 +7,4 @@ const productos = [
     {id:6, nombre: 'Camperon invierno', precio:699},
     {id:34, nombre: 'Guantes negros', precio:199},
 ];
-
-Object.keys(productos).map(function(key, index) {
-    productos[key] = productos.nombre;
-  });
+console.log(productos.map(v => v.nombre));
